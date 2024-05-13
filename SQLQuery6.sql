@@ -1,3 +1,15 @@
+USE Master;
+go
+DROP DATABASE IF EXISTS MP_Business_database;
+go
+CREATE DATABASE MP_Business_database;
+go
+USE MP_Business_database;
+go
+
+
+
+
 --DROP TABLE Customer;
 CREATE TABLE Customer
 (
